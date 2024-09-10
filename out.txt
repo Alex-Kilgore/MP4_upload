@@ -1,0 +1,39 @@
+========================================================================
+                       Bochs x86 Emulator 2.6.11
+              Built from SVN snapshot on January 5, 2020
+                Timestamp: Sun Jan  5 08:36:00 CET 2020
+========================================================================
+Next at t=0
+(0) [0x0000fffffff0] f000:fff0 (unk. ctxt): jmpf 0xf000:e05b          ; ea5be000f0
+<bochs:1> c
+Installed exception handler at ISR <0>
+Installed interrupt handler at IRQ <0>
+Installed interrupt handler at IRQ <1>
+after installing keyboard handler
+Installed exception handler at ISR <14>
+Initialized Paging System
+Loaded page table
+Enabled paging
+Hello World!
+Creating Code Pool
+EXCEPTION DISPATCHER: exc_no = <14>
+handled page fault
+Creating Heap Pool
+EXCEPTION DISPATCHER: exc_no = <14>
+handled page fault
+VM Pools successfully created!
+I am starting with an extensive test
+of the VM Pool memory allocator.
+Please be patient...
+Testing the memory allocation on code_pool...
+EXCEPTION DISPATCHER: exc_no = <14>
+handled page fault
+Testing the memory allocation on heap_pool...
+Test Passed! Congratulations!
+YOU CAN SAFELY TURN OFF THE MACHINE NOW.
+One second has passed
+One second has passed
+One second has passed
+One second has passed
+One second has passed
+(0).[4239928000] [0x00000010095b] 0008:000000000010095b (unk. ctxt): jmp .-2 (0x0010095b)      ; ebfe
